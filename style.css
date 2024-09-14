@@ -4,93 +4,134 @@ body {
 }
 
 body > header {
-    background-color: orange;
-    color: white;
+    background-color: #dc6933;
     display: flex;
     height: 8vh;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+#logo {
+    color: white;
 }
 
 #nav-ul {
     display: flex;
+    justify-content: space-between;
 }
 
 #nav-ul > li {
     padding: 8px;
     margin: 16px;
+    list-style-type: none;
 }
 
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
-}
-
-.navbutton {
+#nav-buttons {
     color: white;
     text-decoration: none;
     padding: 12px;
     border: 1px solid white;
-    border-radius: 10%;
+    border-radius: 20%;
 }
 
-body > main article {
-    width: 70%;
-    margin: auto;
+#title {
+    color: #dc6933;
+    text-align: center;
 }
 
-#main-content {
+#side-bar {
+    color: #4682b4;
+    text-decoration: none;
+}
+
+#side-bar-headings {
+    padding-left: 10%;
+}
+
+#side-bar-buttons {
+    list-style-type: none;
+    padding-bottom: 8%;
+}
+
+#side-bar-buttons > a {
+    text-decoration: none;
+    color: #4682b4;
+    padding: 8px;
+}
+
+#main-page {
     display: flex;
     justify-content: space-around;
 }
 
-#main-content > div {
-    width: 70%;
+#main-content {
+    justify-content: center;
 }
 
-form {
+#video {
+    margin-left: 32%;
+    margin-right: 32%;
+    object-fit: cover;
+}
+
+#main-paragraph {
+    color: #dc6933;
+}
+
+#merch-title {
+    color: #dc6933;
     text-align: center;
 }
 
-h2 {
+#merch {
+    display: flex;
+    justify-content: space-around;
+    color: #dc6933;
+    background-color: #e9d7b6;
+    padding-bottom: 25px;
+}
+
+#merch h3 {
     text-align: center;
+}
+
+#merch p {
+    text-align: center;
+}
+
+#buy-buttons {
+    text-decoration: none;
+    color: #4682b4;
+    border: 2px solid #4682b4;
+    border-radius: 20%;
+    padding: 10px
+}
+
+#merch-photos {
+    height: 100px;
+    width: 100px;
 }
 
 body > footer {
-    background-color: orange;
-    display: flex;
+    background-color: #dc6933;
+    padding-bottom: 0px;
+}
+
+#footer-title {
+    color: #ffffff;
 }
 
 #footer-ul {
     display: flex;
-    list-style: none;
+    justify-content: space-around;
 }
 
-#footer-ul > div > li {
-    margin-left: 12px;
+#footer-buttons {
+    color: #ffffff;
+    list-style-type: none;
 }
 
-#footer-ul > div > li > a {
-    color: white;
+#footer-buttons > a {
+    color: #ffffff;
     text-decoration: none;
-}
-
-#logo {
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    width: 18%;
-    text-shadow:
-    1px 1px 0px black,
-    -1px 1px 0px black,
-    1px -1px 0px black,
-    -1px -1px -1px black;
-}
-
-ul {
-    margin: 0px;
-}
-
-img {
-    border-radius: 10%;
 }
