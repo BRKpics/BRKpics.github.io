@@ -112,9 +112,30 @@ body > header {
     width: 100px;
 }
 
+#newsletter-title {
+    color: #dc6933;
+    text-align: center;
+}
+
+#newsletter {
+    text-align: center;
+}
+
+#newsletter-questions {
+    color: #dc6933;
+}
+
+#country-selector {
+    display: flex;
+    justify-content: center;
+}
+
+
 body > footer {
     background-color: #dc6933;
     padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #footer-title {
